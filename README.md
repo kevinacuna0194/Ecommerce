@@ -1,6 +1,6 @@
 # 02 - Ecommerce
 ~~~
-Ecommerce - Creando un Proyecto para una tienda virtual en Bootstrap 5
+Creando un Proyecto para una tienda virtual en Bootstrap 5
 ~~~
 ---
 <p align="center" font-weight="bold">

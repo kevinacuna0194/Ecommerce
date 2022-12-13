@@ -3,7 +3,8 @@
 }
 
 html {
-    font-size: 62.5%; /* 1rem = 10px */
+    font-size: 62.5%;
+    /* 1rem = 10px */
 }
 
 body {
@@ -29,6 +30,22 @@ h1 {
 }
 
 /* Reescribir colores */
-.text-primary {
-    color: var(--bs-blue)!important;
+.text-primary,
+.nombre-sitio {
+    color: var(--bs-blue) !important;
 }
+
+.hero {
+    background-image: url(../img/principal.jpg);
+    height: 25rem;
+    background-size: cover; /* Llenar todo el espacio disponible */
+    background-position: center center;
+    /* background-repeat: no-repeat; No se necesita con background-size: cover;*/
+}
+
+@media (min-width: 768px) {
+    .hero {
+        height: 55rem;
+    } 
+}
+

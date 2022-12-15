@@ -97,3 +97,16 @@ h3 {
 .categoria img:hover {
     transform: scale(1.2); /* Hace que la imagen crezca un 20% */
 }
+
+/* .galeria li {
+    margin-bottom: 1rem;
+} 
+
+.galeria li:last-of-type {
+    margin-bottom: 0;
+} 
+*/
+
+.galeria li:not(:last-of-type) { /* pasarle la condición en este caso va a ser :last-of-type, aplicarle a todos excepto al último. */
+    margin-bottom: 1rem;
+}

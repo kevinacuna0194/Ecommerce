@@ -50,7 +50,10 @@
 
         <ul class="row list-unstyled galeria">
             <li class="col-md-6 col-lg-4">
-                <img class="img-fluid" src="img/galeria_01.jpg" alt="Imagen Galería">
+                <!-- Entonces, este primer atributo le dice que queremos utilizar del API de Bootstrap el modal y el segundo le dice en qué parte va a encontrar el HTML para mostrar el modal. -->
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen-1">
+                    <img class="img-fluid" src="img/galeria_01.jpg" alt="Imagen Galería">
+                </a>
             </li>
 
             <li class="col-md-6 col-lg-4">
@@ -86,6 +89,16 @@
             </li>
         </ul>
     </main>
+
+    <div class="modal fade" id="modal-imagen-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="img-fluid" src="img/galeria_01.jpg" alt="Imagen Galería">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="pt-5 mt-5 border-top">
         <div class="container-xl mt-5">

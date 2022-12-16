@@ -51,51 +51,65 @@
         <ul class="row list-unstyled galeria">
             <li class="col-md-6 col-lg-4">
                 <!-- Entonces, este primer atributo le dice que queremos utilizar del API de Bootstrap el modal y el segundo le dice en qué parte va a encontrar el HTML para mostrar el modal. -->
-                <a data-bs-toggle="modal" data-bs-target="#modal-imagen-1">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_01">
                     <img class="img-fluid" src="img/galeria_01.jpg" alt="Imagen Galería">
                 </a>
             </li>
 
             <li class="col-md-6 col-lg-4">
-                <img class="img-fluid" src="img/galeria_02.jpg" alt="Imagen Galería">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_02">
+                    <img class="img-fluid" src="img/galeria_02.jpg" alt="Imagen Galería">
+                </a>
             </li>
 
             <li class="col-md-6 col-lg-4">
-                <img class="img-fluid" src="img/galeria_03.jpg" alt="Imagen Galería">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_03">
+                    <img class="img-fluid" src="img/galeria_03.jpg" alt="Imagen Galería">
+                </a>
             </li>
 
             <li class="col-md-6 col-lg-4">
-                <img class="img-fluid" src="img/galeria_04.jpg" alt="Imagen Galería">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_04">
+                    <img class="img-fluid" src="img/galeria_04.jpg" alt="Imagen Galería">
+                </a>
             </li>
 
             <li class="col-md-6 col-lg-4">
-                <img class="img-fluid" src="img/galeria_05.jpg" alt="Imagen Galería">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_05">
+                    <img class="img-fluid" src="img/galeria_05.jpg" alt="Imagen Galería">
+                </a>
             </li>
 
             <li class="col-md-6 col-lg-4">
-                <img class="img-fluid" src="img/galeria_06.jpg" alt="Imagen Galería">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_06">
+                    <img class="img-fluid" src="img/galeria_06.jpg" alt="Imagen Galería">
+                </a>
             </li>
 
             <li class="col-md-6 col-lg-4">
-                <img class="img-fluid" src="img/galeria_07.jpg" alt="Imagen Galería">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_07">
+                    <img class="img-fluid" src="img/galeria_07.jpg" alt="Imagen Galería">
+                </a>
             </li>
 
             <li class="col-md-6 col-lg-4">
-                <img class="img-fluid" src="img/galeria_08.jpg" alt="Imagen Galería">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_08">
+                    <img class="img-fluid" src="img/galeria_08.jpg" alt="Imagen Galería">
+                </a>
             </li>
 
             <li class="col-md-6 col-lg-4">
-                <img class="img-fluid" src="img/galeria_09.jpg" alt="Imagen Galería">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_09">
+                    <img class="img-fluid" src="img/galeria_09.jpg" alt="Imagen Galería">
+                </a>
             </li>
         </ul>
     </main>
 
-    <div class="modal fade" id="modal-imagen-1">
+    <div class="modal fade" id="modal-imagen">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-body">
-                    <img class="img-fluid" src="img/galeria_01.jpg" alt="Imagen Galería">
-                </div>
+                <div class="modal-body"></div>
             </div>
         </div>
     </div>
@@ -143,6 +157,7 @@
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
